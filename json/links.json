@@ -1,0 +1,15 @@
+[
+    {
+        "name": "My Discord Server",
+        "color": "#7289DA",
+        "icon": "web",
+        "url": "https://discord.com"
+	},
+    {
+        "name": "My Youtube",
+        "color": "red",
+        "icon": "web",
+        "url": "https://www.youtube.com/channel/UCV91T86djr2EmuKR5iNA5DA"
+	}
+
+]
