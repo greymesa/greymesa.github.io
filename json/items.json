@@ -1,25 +1,25 @@
 [
     {
-        "name": "Yeet Boi Discord Bot",
-        "description": "A WIP Moderation Discord Bot",
-        "image": "https://cdn.glitch.com/81c37547-3487-43e2-ad17-3bc1aa866a46%2F556553.jpg?v=1600432644620",
-        "link": "https://discord.com"
+        "name": "Yeetbot",
+        "description": "A WIP Moderation Discord Bot Made With Discord.js",
+        "image": "https://cdn.glitch.com/81c37547-3487-43e2-ad17-3bc1aa866a46%2Fepics.PNG?v=1605032654071",
+        "link": "https://github.com/yeetedmeme/yeetbot"
 	},
     {
-        "name": "MusicBoi Music Bot",
-        "description": "Another WIP Bot",
-        "image": "https://cdn.glitch.com/81c37547-3487-43e2-ad17-3bc1aa866a46%2F8-bit-pixel-art-city-2o-2880x1800.jpg?v=1600432669448",
-        "link": "https://discord.com"
+        "name": "? RPG Bot",
+        "description": "A Discord.js Bot I Am Working On With A Friend, Come Back Here For Updates",
+        "image": "https://cdn.glitch.com/81c37547-3487-43e2-ad17-3bc1aa866a46%2F10.jpg?v=1605033271726",
+        "link": ""
 	},
     {
         "name": "Mii Channel Arudino Bot",
-        "description": "Just Was Fooling Around With A Peizo Buzzer",
+        "description": "The Mii Channel Theme On Arduino!",
         "image": "https://cdn.glitch.com/81c37547-3487-43e2-ad17-3bc1aa866a46%2Fhqdefault.webp?v=1600432534048",
         "link": "https://www.youtube.com/watch?v=PYtwIsa1q7o"
 	},
     {
         "name": "Megalovainia Arduino Bot",
-        "description": "Just Was Fooling Around With A Peizo Buzzer",
+        "description": "Megalovania On Arduino!!!",
         "image": "https://cdn.glitch.com/81c37547-3487-43e2-ad17-3bc1aa866a46%2Fhqdefault%20(1).webp?v=1600432598366",
         "link": "https://www.youtube.com/watch?v=U--gaDpaRIA"
 	}
