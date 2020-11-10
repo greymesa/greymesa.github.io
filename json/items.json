@@ -1,3 +1,26 @@
 [
-    
+    {
+        "name": "Yeetbot",
+        "description": "A WIP Moderation Discord Bot Made With Discord.js",
+        "image": "https://cdn.glitch.com/81c37547-3487-43e2-ad17-3bc1aa866a46%2Fepics.PNG?v=1605032654071",
+        "link": "https://github.com/yeetedmeme/yeetbot"
+	},
+    {
+        "name": "? RPG Bot",
+        "description": "A Discord.js Bot I Am Working On With A Friend, Come Back Here For Updates",
+        "image": "https://www.abc.net.au/news/image/954416-3x2-940x627.jpg",
+        "link": "https://discord.com"
+	},
+    {
+        "name": "Mii Channel Arudino Bot",
+        "description": "The Mii Channel Theme On Arduino!",
+        "image": "https://cdn.glitch.com/81c37547-3487-43e2-ad17-3bc1aa866a46%2Fhqdefault.webp?v=1600432534048",
+        "link": "https://www.youtube.com/watch?v=PYtwIsa1q7o"
+	},
+    {
+        "name": "Megalovainia Arduino Bot",
+        "description": "Megalovania On Arduino!!!",
+        "image": "https://cdn.glitch.com/81c37547-3487-43e2-ad17-3bc1aa866a46%2Fhqdefault%20(1).webp?v=1600432598366",
+        "link": "https://www.youtube.com/watch?v=U--gaDpaRIA"
+	}
 ]
