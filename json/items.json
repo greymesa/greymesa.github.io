@@ -1,15 +1,15 @@
 [
     {
-        "name": "Yeet Boi Discord Bot",
-        "description": "A WIP Moderation Discord Bot",
-        "image": "https://cdn.glitch.com/81c37547-3487-43e2-ad17-3bc1aa866a46%2F556553.jpg?v=1600432644620",
-        "link": "https://discord.com"
+        "name": "YeetBot",
+        "description": "A Moderation Discord Bot",
+        "image": "images/yeetbot.png",
+        "link": "https://github.com/yeetedmeme/yeetbot"
 	},
     {
-        "name": "MusicBoi Music Bot",
-        "description": "Another WIP Bot",
-        "image": "https://cdn.glitch.com/81c37547-3487-43e2-ad17-3bc1aa866a46%2F8-bit-pixel-art-city-2o-2880x1800.jpg?v=1600432669448",
-        "link": "https://discord.com"
+        "name": "Kaspammer Kahoot Flooder",
+        "description": "Node.js Kahoot Flooder",
+        "image": "images/kaspammer",
+        "link": "https://yeetedmeme.js.org/kaspammer"
 	},
     {
         "name": "Mii Channel Arudino Bot",
