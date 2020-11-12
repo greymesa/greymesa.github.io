@@ -22,5 +22,17 @@
         "description": "Megalovania On Arduino!!",
         "image": "images/mega.png",
         "link": "https://www.youtube.com/watch?v=U--gaDpaRIA"
+	},
+    {
+        "name": "Tetris Arduino Bot",
+        "description": "Tetris A Theme!",
+        "image": "images/tetris.png",
+        "link": "https://www.youtube.com/watch?v=4dcf0Y6W6kQ"
+    },
+    {
+        "name": "? RPG Bot",
+        "description": "discord.js RPG bot im working on with a friend, come back here for updates",
+        "image": "images/rpg.png",
+        "link": "https://discord.com"
 	}
 ]
