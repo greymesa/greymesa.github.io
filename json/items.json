@@ -28,12 +28,6 @@
         "description": "Tetris A Theme On Arduino!",
         "image": "images/tetris.png",
         "link": "https://www.youtube.com/watch?v=4dcf0Y6W6kQ"
-	},
-    {
-        "name": "? RPG Bot",
-        "description": "A discord.js RPG bot im working on with a friend, come back here for updates",
-        "image": "images/rpg.png",
-        "link": "https://www.discord.com"
-    }
+	}
 
 ]
