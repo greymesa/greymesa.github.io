@@ -8,19 +8,19 @@
     {
         "name": "Kaspammer Kahoot Flooder",
         "description": "Node.js Kahoot Flooder",
-        "image": "images/kaspammer.jpg",
+        "image": "images/kaspammer.png",
         "link": "https://yeetedmeme.js.org/kaspammer"
 	},
     {
         "name": "Mii Channel Arudino Bot",
-        "description": "Just Was Fooling Around With A Peizo Buzzer",
-        "image": "https://cdn.glitch.com/81c37547-3487-43e2-ad17-3bc1aa866a46%2Fhqdefault.webp?v=1600432534048",
+        "description": "Mii Channel Theme!",
+        "image": "images/mii.png",
         "link": "https://www.youtube.com/watch?v=PYtwIsa1q7o"
 	},
     {
         "name": "Megalovainia Arduino Bot",
-        "description": "Just Was Fooling Around With A Peizo Buzzer",
-        "image": "https://cdn.glitch.com/81c37547-3487-43e2-ad17-3bc1aa866a46%2Fhqdefault%20(1).webp?v=1600432598366",
+        "description": "Megalovania On Arduino!!",
+        "image": "images/mega.png",
         "link": "https://www.youtube.com/watch?v=U--gaDpaRIA"
 	}
 ]
