@@ -30,9 +30,9 @@
         "link": "https://www.youtube.com/watch?v=4dcf0Y6W6kQ"
     },
     {
-        "name": "? RPG Bot",
-        "description": "discord.js RPG bot im working on with a friend, come back here for updates",
-        "image": "images/rpg.png",
-        "link": "https://discord.com"
+        "name": "PortableMC",
+        "description": "Portable Minecraft!",
+        "image": "images/mc.png",
+        "link": "https://github.com/yeetedmeme/portablemc/releases"
 	}
 ]
