@@ -17,7 +17,7 @@ if (typeof jQuery === 'undefined') {
     jQuery = $;
   }
 }
-; /*
+ /*
   * jQuery Easing v1.4.0 - http://gsgd.co.uk/sandbox/jquery/easing/
   * Open source under the BSD License.
   * Copyright © 2008 George McGinley Smith
@@ -160,13 +160,13 @@ if (typeof jQuery === 'undefined') {
       return x < 0.5 ? (1 - bounceOut(1 - 2 * x)) / 2 : (1 + bounceOut(2 * x - 1)) / 2;
     }
   });
-});; // Custom Easing
+}); // Custom Easing
 jQuery.extend(jQuery.easing, {
   easeInOutMaterial: function (x, t, b, c, d) {
     if ((t /= d / 2) < 1) return c / 2 * t * t + b;
     return c / 4 * ((t -= 2) * t * t + 2) + b;
   }
-});; /*! VelocityJS.org (1.2.3). (C) 2014 Julian Shapiro. MIT @license: en.wikipedia.org/wiki/MIT_License */
+}); /*! VelocityJS.org (1.2.3). (C) 2014 Julian Shapiro. MIT @license: en.wikipedia.org/wiki/MIT_License */
 /*! VelocityJS.org jQuery Shim (1.0.1). (C) 2014 The jQuery Foundation. MIT @license: en.wikipedia.org/wiki/MIT_License. */
 /*! Note that this has been modified by Materialize to confirm that Velocity is not already being imported. */
 jQuery.Velocity ? console.log("Velocity is already loaded. You may be needlessly importing Velocity again; note that Materialize includes Velocity.") : (!function (e) {
@@ -792,7 +792,7 @@ jQuery.Velocity ? console.log("Velocity is already loaded. You may be needlessly
     }), b;
   }(window.jQuery || window.Zepto || window, window, document);
 }));
-;!function (a, b, c, d) {
+!function (a, b, c, d) {
   "use strict";
   function k(a, b, c) {
     return setTimeout(q(a, c), b);
@@ -1215,7 +1215,7 @@ jQuery.Velocity ? console.log("Velocity is already loaded. You may be needlessly
     } }, n(hc, { INPUT_START: O, INPUT_MOVE: P, INPUT_END: Q, INPUT_CANCEL: R, STATE_POSSIBLE: Rb, STATE_BEGAN: Sb, STATE_CHANGED: Tb, STATE_ENDED: Ub, STATE_RECOGNIZED: Vb, STATE_CANCELLED: Wb, STATE_FAILED: Xb, DIRECTION_NONE: S, DIRECTION_LEFT: T, DIRECTION_RIGHT: U, DIRECTION_UP: V, DIRECTION_DOWN: W, DIRECTION_HORIZONTAL: X, DIRECTION_VERTICAL: Y, DIRECTION_ALL: Z, Manager: kc, Input: ab, TouchAction: Pb, TouchInput: Eb, MouseInput: rb, PointerEventInput: wb, TouchMouseInput: Gb, SingleTouchInput: Ab, Recognizer: Yb, AttrRecognizer: ac, Tap: gc, Pan: bc, Swipe: fc, Pinch: cc, Rotate: ec, Press: dc, on: t, off: u, each: m, merge: o, extend: n, inherit: p, bindFn: q, prefixed: B }), typeof define == g && define.amd ? define(function () {
     return hc;
   }) : "undefined" != typeof module && module.exports ? module.exports = hc : a[c] = hc;
-}(window, document, "Hammer");;(function (factory) {
+}(window, document, "Hammer");(function (factory) {
   if (typeof define === 'function' && define.amd) {
     define(['jquery', 'hammerjs'], factory);
   } else if (typeof exports === 'object') {
@@ -1248,7 +1248,7 @@ jQuery.Velocity ? console.log("Velocity is already loaded. You may be needlessly
     };
   }(Hammer.Manager.prototype.emit);
 });
-; // Required for Meteor package, the use of window prevents export by Meteor
+ // Required for Meteor package, the use of window prevents export by Meteor
 (function (window) {
   if (window.Package) {
     Materialize = {};
@@ -1418,7 +1418,7 @@ if (Vel) {
 } else {
   Materialize.Vel = Velocity;
 }
-;(function ($) {
+(function ($) {
   $.fn.collapsible = function (options, methodParam) {
     var defaults = {
       accordion: undefined,
@@ -1595,7 +1595,7 @@ if (Vel) {
   $(document).ready(function () {
     $('.collapsible').collapsible();
   });
-})(jQuery);;(function ($) {
+})(jQuery);(function ($) {
 
   // Add posibility to scroll to selected option
   // usefull for select for example
@@ -1852,7 +1852,7 @@ if (Vel) {
     $('.dropdown-button').dropdown();
   });
 })(jQuery);
-;(function ($, Vel) {
+(function ($, Vel) {
   'use strict';
 
   var _defaults = {
@@ -1882,7 +1882,7 @@ if (Vel) {
       _classCallCheck(this, Modal);
 
       // If exists, destroy and reinitialize
-      if (!!$el[0].M_Modal) {
+      if ($el[0].M_Modal) {
         $el[0].M_Modal.destroy();
       }
 
@@ -1944,7 +1944,7 @@ if (Vel) {
       value: function destroy() {
         this.removeEventHandlers();
         this.$el[0].removeAttribute('style');
-        if (!!this.$overlay[0].parentNode) {
+        if (this.$overlay[0].parentNode) {
           this.$overlay[0].parentNode.removeChild(this.$overlay[0]);
         }
         this.$el[0].M_Modal = undefined;
@@ -2150,7 +2150,7 @@ if (Vel) {
         body.appendChild(this.$overlay[0]);
 
         // Set opening trigger, undefined indicates modal was opened by javascript
-        this.openingTrigger = !!$trigger ? $trigger : undefined;
+        this.openingTrigger = $trigger ? $trigger : undefined;
 
         if (this.options.dismissible) {
           this.handleKeydownBound = this.handleKeydown.bind(this);
@@ -2245,7 +2245,7 @@ if (Vel) {
     }
   };
 })(jQuery, Materialize.Vel);
-;(function ($) {
+(function ($) {
 
   $.fn.materialbox = function () {
 
@@ -2508,7 +2508,7 @@ if (Vel) {
     $('.materialboxed').materialbox();
   });
 })(jQuery);
-;(function ($) {
+(function ($) {
 
   $.fn.parallax = function () {
     var window_width = $(window).width();
@@ -2562,7 +2562,7 @@ if (Vel) {
     });
   };
 })(jQuery);
-;(function ($) {
+(function ($) {
 
   var methods = {
     init: function (options) {
@@ -2721,7 +2721,7 @@ if (Vel) {
           }
 
           // Act as regular link if target attribute is specified.
-          if (!!$(this).attr("target")) {
+          if ($(this).attr("target")) {
             return;
           }
 
@@ -2806,7 +2806,7 @@ if (Vel) {
     $('ul.tabs').tabs();
   });
 })(jQuery);
-;(function ($) {
+(function ($) {
   $.fn.tooltip = function (options) {
     var timeout = null,
         margin = 5;
@@ -3033,7 +3033,7 @@ if (Vel) {
     $('.tooltipped').tooltip();
   });
 })(jQuery);
-; /*!
+ /*!
   * Waves v0.6.4
   * http://fian.my.id/Waves
   *
@@ -3042,7 +3042,7 @@ if (Vel) {
   * https://github.com/fians/Waves/blob/master/LICENSE
   */
 
-;(function (window) {
+(function (window) {
   'use strict';
 
   var Waves = Waves || {};
@@ -3366,7 +3366,7 @@ if (Vel) {
     Waves.displayEffect();
   }, false);
 })(window);
-;(function ($, Vel) {
+(function ($, Vel) {
   'use strict';
 
   var _defaults = {
@@ -3606,7 +3606,7 @@ if (Vel) {
     }, {
       key: '_onDragMove',
       value: function _onDragMove(e) {
-        if (!!Toast._draggedToast) {
+        if (Toast._draggedToast) {
           e.preventDefault();
           var toast = Toast._draggedToast;
           toast.deltaX = Math.abs(toast.xPos - Toast._xPos(e));
@@ -3629,7 +3629,7 @@ if (Vel) {
     }, {
       key: '_onDragEnd',
       value: function _onDragEnd(e) {
-        if (!!Toast._draggedToast) {
+        if (Toast._draggedToast) {
           var toast = Toast._draggedToast;
           toast.panning = false;
           toast.el.classList.remove('panning');
@@ -3716,7 +3716,7 @@ if (Vel) {
     return new Toast(message, displayLength, className, completeCallback);
   };
 })(jQuery, Materialize.Vel);
-;(function ($) {
+(function ($) {
 
   var methods = {
     init: function (options) {
@@ -4111,7 +4111,7 @@ if (Vel) {
     }
   }; // Plugin end
 })(jQuery);
-; /**
+ /**
   * Extend jquery with a scrollspy plugin.
   * This watches the window scroll and fires events when elements are scrolled into viewport.
   *
@@ -4341,7 +4341,7 @@ if (Vel) {
     return $.scrollSpy($(this), options);
   };
 })(jQuery);
-;(function ($) {
+(function ($) {
   $(document).ready(function () {
 
     // Function to update labels of text fields
@@ -4745,7 +4745,7 @@ if (Vel) {
                     }
 
                     var autocompleteOption = $('<li></li>');
-                    if (!!data[key]) {
+                    if (data[key]) {
                       autocompleteOption.append('<img src="' + data[key] + '" class="right circle"><span>' + key + '</span>');
                     } else {
                       autocompleteOption.append('<span>' + key + '</span>');
@@ -4872,9 +4872,9 @@ if (Vel) {
         // add icons
         var icon_url = option.data('icon');
         var classes = option.attr('class');
-        if (!!icon_url) {
+        if (icon_url) {
           var classString = '';
-          if (!!classes) classString = ' class="' + classes + '"';
+          if (classes) classString = ' class="' + classes + '"';
 
           // Check for multiple type.
           options.append($('<li class="' + disabledClass + optgroupClass + '"><img alt="" src="' + icon_url + '"' + classString + '><span>' + multipleCheckbox + option.html() + '</span></li>'));
@@ -5147,7 +5147,7 @@ if (Vel) {
     }
   };
 })(jQuery);
-;(function ($) {
+(function ($) {
 
   var methods = {
 
@@ -5442,7 +5442,7 @@ if (Vel) {
     }
   }; // Plugin end
 })(jQuery);
-;(function ($) {
+(function ($) {
   $(document).ready(function () {
 
     $(document).on('click.card', '.card', function (e) {
@@ -5470,7 +5470,7 @@ if (Vel) {
     });
   });
 })(jQuery);
-;(function ($) {
+(function ($) {
   var materialChipsDefaults = {
     data: [],
     placeholder: '',
@@ -5785,7 +5785,7 @@ if (Vel) {
     this.handleEvents();
   };
 })(jQuery);
-;(function ($) {
+(function ($) {
   $.fn.pushpin = function (options) {
     // Defaults
     var defaults = {
@@ -5852,7 +5852,7 @@ if (Vel) {
       });
     });
   };
-})(jQuery);;(function ($) {
+})(jQuery);(function ($) {
   $(document).ready(function () {
 
     // jQuery reverse
@@ -6105,7 +6105,7 @@ if (Vel) {
     }, 200);
   };
 })(jQuery);
-;(function ($) {
+(function ($) {
   // Image transition function
   Materialize.fadeInImage = function (selectorOrEl) {
     var element;
@@ -6268,7 +6268,7 @@ if (Vel) {
     // });
   });
 })(jQuery);
-;(function ($) {
+(function ($) {
 
   var scrollFireEventsHandled = false;
 
@@ -6317,7 +6317,7 @@ if (Vel) {
     setTimeout(throttledScroll, 0);
   };
 })(jQuery);
-; /*!
+ /*!
   * pickadate.js v3.5.0, 2014/04/13
   * By Amsul, http://amsul.ca
   * Hosted on http://amsul.github.io/pickadate.js
@@ -7351,7 +7351,7 @@ if (Vel) {
   // Expose the picker constructor.
   return PickerConstructor;
 });
-; /*!
+ /*!
   * Date picker for pickadate.js v3.5.0
   * http://amsul.github.io/pickadate.js/date.htm
   */
@@ -8582,7 +8582,7 @@ if (Vel) {
    */
   Picker.extend('pickadate', DatePicker);
 });
-; /*!
+ /*!
   * ClockPicker v0.0.7 (http://weareoutman.github.io/clockpicker/)
   * Copyright 2014 Wang Shenwei.
   * Licensed under MIT (https://github.com/weareoutman/clockpicker/blob/gh-pages/LICENSE)
@@ -9228,7 +9228,7 @@ if (Vel) {
     });
   };
 })(jQuery);
-;(function ($) {
+(function ($) {
 
   $.fn.characterCounter = function () {
     return this.each(function () {
@@ -9292,7 +9292,7 @@ if (Vel) {
     $('input, textarea').characterCounter();
   });
 })(jQuery);
-;(function ($) {
+(function ($) {
 
   var methods = {
 
@@ -9835,7 +9835,7 @@ if (Vel) {
     }
   }; // Plugin end
 })(jQuery);
-;(function ($) {
+(function ($) {
 
   var methods = {
     init: function (options) {
