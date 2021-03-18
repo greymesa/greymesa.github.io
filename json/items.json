@@ -16,13 +16,13 @@
     {
         "name": "YeetBot",
         "description": "A Moderation Discord Bot",
-        "image": "images/yeetbot.jpg",
+        "image": "images/yeetbot.png",
         "link": "https://github.com/yeetedmeme/yeetbot"
 	},
     {
         "name": "Kaspammer Kahoot Flooder",
         "description": "Node.js Kahoot Flooder",
-        "image": "images/kaspammer.jpg",
+        "image": "images/kaspammer.png",
         "link": "https://yeetedmeme.ml/kaspammer"
 	},
     {
