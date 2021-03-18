@@ -18,12 +18,12 @@
 }
 
 .links {
-    margin: 0 20px 0 20px;
+    margin: 0 20px;
     display: inline-block;
     font-size: 16px;
     color: #212121;
     border-radius: 3px;
-    padding: 5px 10px 5px 10px;
+    padding: 5px 10px;
 }
 
 .links:hover {
@@ -55,7 +55,7 @@
 }
 
 #portfolioText {
-    margin-top: 0px;
+    margin-top: 0;
     margin-bottom: -30px;
     font-weight: 500;
     font-size: 2.2rem;
@@ -133,7 +133,7 @@
 }
 
 #contactButton p {
-    margin: 0px;
+    margin: 0;
     margin-top: -1px;
 }
 
