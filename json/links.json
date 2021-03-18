@@ -29,6 +29,14 @@
         "color": "green",
         "icon": "web",
         "url": "https://ko-fi.com/ashhnry"
+    },
+
+
+    {
+        "name": "Mail",
+        "color": "grey",
+        "icon": "web",
+        "url": "mailto:yeeted@yeetedmeme.ml"
     }
 
 ]
