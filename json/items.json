@@ -1,35 +1,35 @@
 [
     {
         "name": "PortableMC",
-        "description": "Portable Minecraft!",
+        "description": "A version of minecraft created to run on school and work laptops.",
         "image": "images/mc.png",
         "link": "https://portablemc.github.io"
 	},
 
     {
         "name": "Never Gonna Give You Up Arduino Bot",
-        "description": "Arduino!!",
+        "description": "Created with a peizo buzzer.",
         "image": "images/mega.png",
         "link": "https://www.youtube.com/watch?v=wd8Xui1g0Ao&ab"
 	},
 
     {
-        "name": "GlaDOS AI",
-        "description": "A Discord AI Based On A WeChat Ad Bot API",
-        "image": "images/glados.png",
-        "link": "https://gladosai.tk"
+        "name": "Schoolgrounds",
+        "description": "Website I collaberated on. Think of newgrounds but with flash games, unblocked in school",
+        "image": "images/school.png",
+        "link": "https://schoolgroundshtmkl.tk"
 	},
     {
-        "name": "Kaspammer Kahoot Flooder",
-        "description": "Node.js Kahoot Flooder",
-        "image": "images/kaspammer.png",
-        "link": "https://kaspammer.glitch.me"
+        "name": "'Mathworksheets' Proxy",
+        "description": "Proxy Created by using alloy, of which is based off of nginx",
+        "image": "images/math.png",
+        "link": "https://mathworksheets.schoolgroundshtml.tk"
 	},
     {
-        "name": "Mii Channel Arudino Bot",
-        "description": "Mii Channel Theme!",
-        "image": "images/mii.png",
-        "link": "https://www.youtube.com/watch?v=PYtwIsa1q7o"
+        "name": "Arduino Cybertruck",
+        "description": "My first real time toying around with c++ in a compitition, the code is not impressive by any standards",
+        "image": "images/cyber.png",
+        "link": "https://github.com/greymesa/Cybertruck-Code"
 	},
     
     {
