@@ -23,6 +23,15 @@ body {
      width: auto;
      height: auto;
 }
+
+.construct {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px;
+    height: 25px;
+}
+
  .btn {
      width: 232px;
      hight: 50px;
