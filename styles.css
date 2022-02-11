@@ -82,10 +82,10 @@ body {
      height: 50px;
 }
  div.gallery {
-     border: 1px solid #ccc;
+     border: 3px solid #bebebe;
 }
  div.gallery:hover {
-     border: 1px solid #777;
+     border: 3px solid orangered;
 }
  div.gallery img {
      width: 100%;
