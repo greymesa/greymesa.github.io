@@ -1,0 +1,16 @@
+# Example Site settings
+
+#google_analytics: UA-NNNNNNNN-N
+
+header_pages:
+  - index.md
+  - about.md
+  - projects.md
+
+footer: '<a href="https://github.com/greymesa">github</a> <a href="https://raw.githubusercontent.com/greymesa/greymesa/main/discord.txt">discord</a> <a href="mailto:thegreymesa@gmail.com">email (why)</a>'
+
+#style: light # dark (default) or light
+#listen_for_clients_preferred_style: true # true or false (default)
+
+plugins:
+  - jekyll-seo-tag
