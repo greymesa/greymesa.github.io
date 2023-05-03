@@ -1,6 +1,6 @@
 # Example Site settings
 
-#google_analytics: UA-NNNNNNNN-N
+google_analytics: G-D0VQG16S4W
 
 header_pages:
   - index.md
