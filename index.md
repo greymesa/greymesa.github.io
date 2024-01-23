@@ -3,7 +3,7 @@ layout: default
 title: "Home"
 ---
 
-## λ Rick and Morty. λ
+## λ greymesa - mesagrey.ca λ <a href="/feed.xml"><img src="/assets/images/rss_ani.gif" id="linebreak"></a>
 <img src="/assets/images/line.gif" id="linebreak">
 
 
