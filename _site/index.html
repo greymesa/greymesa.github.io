@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en-CA">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <title>Home - greymesa</title>
+    <link rel="stylesheet" href="/assets/css/main.css">
+    <script type="text/javascript" src="/assets/js/index.js"></script>
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+  </head>
+  <body>
+    
+    <div id="container"><div id="topBar"></div>
+    <div id="headerArea">
+        <div id="header"></div>
+        <nav id="navbar">
+            <ul>
+                <li><a href="#"><img src="/assets/images/nav/home.png" alt="Home"></a></li>
+                <li><a href="#"><img src="/assets/images/nav/about.png" alt="About Me"></a></li>
+                <li><a href="#"><img src="/assets/images/nav/blog.png" alt="Blog"></a></li>
+                <li><a href="#"><img src="/assets/images/nav/guest.png" alt="Guestbook"></a></li>
+                <li><a href="#"><img src="/assets/images/nav/projects.png" alt="Projects"></a></li>
+                <li><a href="#"><img src="/assets/images/nav/github.png" alt="Github"></a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <div id="flex">
+        <aside id="leftSidebar">
+            <h2>Changelog:</h2>
+            <div class="box">
+                <p>Initial Upload.</p>
+                <ul style="padding-left:10px;">
+                    <li>Created website.</li>
+                    <li>Website was made using Jekyll to simply the blogging process.</li>
+                    <li>Just created the default page. Any buttons that don't work right now will be added in the coming days.</li>
+                </ul>
+            </div>
+            <h3>Planned Features:</h3>
+            <ul>
+                <li><p>Blog</p></li>
+                <li><p>Guestbook</p></li>
+                <li><p>New scrollbar</p></li>
+                <li><p>Projects Page for hosting some of my projects.</p></li>
+            </ul>
+            <audio id="myAudio" loop>
+                <source src="/assets/bimmer.mp3">
+                Your browser does not support the audio element.
+            </audio>
+            <img id="playPauseImage" src="/assets/images/gordon/stillgordon.gif" alt="Play/Pause" width="100px">
+
+            <script>
+            document.addEventListener('DOMContentLoaded', function() {
+            const audio = document.getElementById('myAudio');
+                    audio.volume = 1;  //ADD THIS LINE. Set volume to 50%
+            const playPauseImage = document.getElementById('playPauseImage');
+            
+            playPauseImage.addEventListener('click', function() {
+                if (audio.paused) {
+                    audio.play();
+                    playPauseImage.src = '/assets/images/gordon/gordon.gif';} // Change to play image
+                else{
+                    audio.pause();
+                    //audio.currentTime = 0; // Rewinds audio to the start, IDK if you wanted this or just a literal play/pause on an image lmao
+                    playPauseImage.src = '/assets/images/gordon/stillgordon.gif';}  // Change back to pause image    
+                
+                });
+            });   
+            </script>
+        </aside>
+        <main>
+        <h2 id="λ-rick-and-morty-λ">λ Rick and Morty. λ</h2>
+<p><img src="/assets/images/line.gif" /></p>
+
+<p>To be fair, you have to have a very high IQ to understand Rick and Morty. The humor is extremely subtle, and without a solid grasp of theoretical physics most of the jokes will go over a typical viewer’s head. There’s also Rick’s nihilistic outlook, which is deftly woven into his characterisation - his personal philosophy draws heavily from Narodnaya Volya literature, for instance. The fans understand this stuff; they have the intellectual capacity to truly appreciate the depths of these jokes, to realize that they’re not just funny- they say something deep about LIFE. As a consequence people who dislike Rick and Morty truly ARE idiots- of course they wouldn’t appreciate, for instance, the humour in Rick’s existencial catchphrase “Wubba Lubba Dub Dub,” which itself is a cryptic reference to Turgenev’s Russian epic Fathers and Sons. I’m smirking right now just imagining one of those addlepated simpletons scratching their heads in confusion as Dan Harmon’s genius unfolds itself on their television screens. What fools… how I pity them. 😂 And yes by the way, I DO have a Rick and Morty tattoo. And no, you cannot see it. It’s for the ladies’ eyes only- And even they have to demonstrate that they’re within 5 IQ points of my own (preferably lower) beforehand.</p>
+
+<p><br />
+λ</p>
+
+        </main>
+        <aside id="rightSidebar">
+            <h2>λ Welcome to mesagrey.ca! λ</h2>
+
+            <h3>Random Quip:</h3>
+            <div class="box">
+                <p id="line"></p>
+            </div>
+            <h2>Hey, Welcome to my Website!</h2>
+            <p>With all the craziness going on in the world right now, I've decided to finally start a blog. I don't promise anything more than a hodgepodge of thoughts and feelings.</p>
+            <h3>My Interets: (more at <a href="#">about me</a>)</h3>
+            <ul>
+                <li><p>web design</p></li>
+                <li><p>arg's & internet horror</p></li>
+                <li><p>gaming</p></li>
+                <li><p>music</p></li>
+
+            </ul>
+        </aside>
+    </div>
+    <footer id="footer">
+        <marquee scrollamount="10">
+            
+            
+            
+            
+            
+            
+            
+            
+            <img id="badge" src="http://127.0.0.1:4000//assets/images/badges/1dlb.gif" alt="1dlb.gif">
+            
+            
+            
+            <img id="badge" src="http://127.0.0.1:4000//assets/images/badges/800x600a.gif" alt="800x600a.gif">
+            
+            
+            
+            <img id="badge" src="http://127.0.0.1:4000//assets/images/badges/PoweredByRuby.png" alt="PoweredByRuby.png">
+            
+            
+            
+            <img id="badge" src="http://127.0.0.1:4000//assets/images/badges/button.gif" alt="button.gif">
+            
+            
+            
+            <img id="badge" src="http://127.0.0.1:4000//assets/images/badges/button352.png" alt="button352.png">
+            
+            
+            
+            <img id="badge" src="http://127.0.0.1:4000//assets/images/badges/button454.png" alt="button454.png">
+            
+            
+            
+            <img id="badge" src="http://127.0.0.1:4000//assets/images/badges/can_iam.gif" alt="can_iam.gif">
+            
+            
+            
+            <img id="badge" src="http://127.0.0.1:4000//assets/images/badges/doombut.gif" alt="doombut.gif">
+            
+            
+            
+            <img id="badge" src="http://127.0.0.1:4000//assets/images/badges/dukenow.gif" alt="dukenow.gif">
+            
+            
+            
+            <img id="badge" src="http://127.0.0.1:4000//assets/images/badges/evangelion.gif" alt="evangelion.gif">
+            
+            
+            
+            <img id="badge" src="http://127.0.0.1:4000//assets/images/badges/getwmp7.gif" alt="getwmp7.gif">
+            
+            
+            
+            <img id="badge" src="http://127.0.0.1:4000//assets/images/badges/github.gif" alt="github.gif">
+            
+            
+            
+            <img id="badge" src="http://127.0.0.1:4000//assets/images/badges/google_stand.gif" alt="google_stand.gif">
+            
+            
+            
+            <img id="badge" src="http://127.0.0.1:4000//assets/images/badges/got_html.gif" alt="got_html.gif">
+            
+            
+            
+            <img id="badge" src="http://127.0.0.1:4000//assets/images/badges/half-life.gif" alt="half-life.gif">
+            
+            
+            
+            <img id="badge" src="http://127.0.0.1:4000//assets/images/badges/id.gif" alt="id.gif">
+            
+            
+            
+            <img id="badge" src="http://127.0.0.1:4000//assets/images/badges/internetarchive.gif" alt="internetarchive.gif">
+            
+            
+            
+            <img id="badge" src="http://127.0.0.1:4000//assets/images/badges/is_it_slow_say_so.gif" alt="is_it_slow_say_so.gif">
+            
+            
+            
+            <img id="badge" src="http://127.0.0.1:4000//assets/images/badges/js-warning.gif" alt="js-warning.gif">
+            
+            
+            
+            <img id="badge" src="http://127.0.0.1:4000//assets/images/badges/keep.gif" alt="keep.gif">
+            
+            
+            
+            <img id="badge" src="http://127.0.0.1:4000//assets/images/badges/lambda2.gif" alt="lambda2.gif">
+            
+            
+            
+            <img id="badge" src="http://127.0.0.1:4000//assets/images/badges/mousepow.gif" alt="mousepow.gif">
+            
+            
+            
+            <img id="badge" src="http://127.0.0.1:4000//assets/images/badges/n64.gif" alt="n64.gif">
+            
+            
+            
+            <img id="badge" src="http://127.0.0.1:4000//assets/images/badges/newgrounds.gif" alt="newgrounds.gif">
+            
+            
+            
+            <img id="badge" src="http://127.0.0.1:4000//assets/images/badges/newlambda.gif" alt="newlambda.gif">
+            
+            
+            
+            <img id="badge" src="http://127.0.0.1:4000//assets/images/badges/notepad.gif" alt="notepad.gif">
+            
+            
+            
+            <img id="badge" src="http://127.0.0.1:4000//assets/images/badges/nvidia.gif" alt="nvidia.gif">
+            
+            
+            
+            <img id="badge" src="http://127.0.0.1:4000//assets/images/badges/onionlink1098.gif" alt="onionlink1098.gif">
+            
+            
+            
+            <img id="badge" src="http://127.0.0.1:4000//assets/images/badges/pokemon.gif" alt="pokemon.gif">
+            
+            
+            
+            <img id="badge" src="http://127.0.0.1:4000//assets/images/badges/quake.gif" alt="quake.gif">
+            
+            
+            
+            <img id="badge" src="http://127.0.0.1:4000//assets/images/badges/rar_whit_move.gif" alt="rar_whit_move.gif">
+            
+            
+            
+            <img id="badge" src="http://127.0.0.1:4000//assets/images/badges/sprunk.gif" alt="sprunk.gif">
+            
+            
+            
+            <img id="badge" src="http://127.0.0.1:4000//assets/images/badges/team_fortress_get_it.gif" alt="team_fortress_get_it.gif">
+            
+            
+            
+            <img id="badge" src="http://127.0.0.1:4000//assets/images/badges/winxp.gif" alt="winxp.gif">
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+        </marquee>
+    </footer>
+</div>
+</body>
+</html>

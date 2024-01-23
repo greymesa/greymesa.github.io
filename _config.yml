@@ -1,16 +1,3 @@
-# Example Site settings
-
-google_analytics: G-D0VQG16S4W
-
-header_pages:
-  - index.md
-  - about.md
-  - projects.md
-
-footer: '<a href="https://github.com/greymesa">github</a> <a href="https://raw.githubusercontent.com/greymesa/greymesa/main/discord.txt">discord</a> <a href="mailto:thegreymesa@gmail.com">email (why)</a>'
-
-#style: light # dark (default) or light
-#listen_for_clients_preferred_style: true # true or false (default)
-
-plugins:
-  - jekyll-seo-tag
+url: "https://mesagrey.ca" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "" # the subpath of your site, e.g. /blog
+title: "greymesa" # the name of your site, e.g. ACME Corp.

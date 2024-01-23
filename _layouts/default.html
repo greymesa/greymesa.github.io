@@ -1,22 +1,104 @@
 <!DOCTYPE html>
-<html lang="{{ page.lang | default: site.lang | default: "en" }}">
-<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self'; style-src 'self' https://fonts.googleapis.com; img-src 'self'; font-src 'self' https://fonts.gstatic.com; connect-src 'self'; media-src 'self'; object-src 'self'; child-src 'self'; form-action 'none'; base-uri 'self'" />
-<meta http-equiv="X-XSS-Protection"  content="1;mode=block" always>
-<meta http-equiv="Referrer-Policy" content="no-referrer, strict-origin-when-cross-origin">
-
-  {%- include head.html -%}
-
+<html lang="{{ site.lang | default: "en-CA" }}">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <title>{{ page.title }} - {{ site.title }}</title>
+    <link rel="stylesheet" href="{{ "assets/css/main.css" | relative_url }}">
+    <script type="text/javascript" src="/assets/js/index.js"></script>
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+  </head>
   <body>
-    <div class="container">
-
-      {%- include header.html -%}
-
-    <main>
-      {{ content }}
-    </main>
-
-    {%- include footer.html -%}
-
+    
+    <div id="container"><div id="topBar"></div>
+    <div id="headerArea">
+        <div id="header"></div>
+        <nav id="navbar">
+            <ul>
+                <li><a href="#"><img src="/assets/images/nav/home.png" alt="Home"></a></li>
+                <li><a href="#"><img src="/assets/images/nav/about.png" alt="About Me"></a></li>
+                <li><a href="#"><img src="/assets/images/nav/blog.png" alt="Blog"></a></li>
+                <li><a href="#"><img src="/assets/images/nav/guest.png" alt="Guestbook"></a></li>
+                <li><a href="#"><img src="/assets/images/nav/projects.png" alt="Projects"></a></li>
+                <li><a href="#"><img src="/assets/images/nav/github.png" alt="Github"></a></li>
+            </ul>
+        </nav>
     </div>
-  </body>
+
+    <div id="flex">
+        <aside id="leftSidebar">
+            <h2>Changelog:</h2>
+            <div class="box">
+                <p>Initial Upload.</p>
+                <ul style="padding-left:10px;">
+                    <li>Created website.</li>
+                    <li>Website was made using Jekyll to simply the blogging process.</li>
+                    <li>Just created the default page. Any buttons that don't work right now will be added in the coming days.</li>
+                </ul>
+            </div>
+            <h3>Planned Features:</h3>
+            <ul>
+                <li><p>Blog</p></li>
+                <li><p>Guestbook</p></li>
+                <li><p>New scrollbar</p></li>
+                <li><p>Projects Page for hosting some of my projects.</p></li>
+            </ul>
+            <audio id="myAudio" loop>
+                <source src="/assets/bimmer.mp3">
+                Your browser does not support the audio element.
+            </audio>
+            <img id="playPauseImage" src="/assets/images/gordon/stillgordon.gif" alt="Play/Pause" width="100px">
+
+            <script>
+            document.addEventListener('DOMContentLoaded', function() {
+            const audio = document.getElementById('myAudio');
+                    audio.volume = 1;  //ADD THIS LINE. Set volume to 50%
+            const playPauseImage = document.getElementById('playPauseImage');
+            
+            playPauseImage.addEventListener('click', function() {
+                if (audio.paused) {
+                    audio.play();
+                    playPauseImage.src = '/assets/images/gordon/gordon.gif';} // Change to play image
+                else{
+                    audio.pause();
+                    //audio.currentTime = 0; // Rewinds audio to the start, IDK if you wanted this or just a literal play/pause on an image lmao
+                    playPauseImage.src = '/assets/images/gordon/stillgordon.gif';}  // Change back to pause image    
+                
+                });
+            });   
+            </script>
+        </aside>
+        <main>
+        {{ content }}
+        </main>
+        <aside id="rightSidebar">
+            <h2>λ Welcome to mesagrey.ca! λ</h2>
+
+            <h3>Random Quip:</h3>
+            <div class="box">
+                <p id="line"></p>
+            </div>
+            <h2>Hey, Welcome to my Website!</h2>
+            <p>With all the craziness going on in the world right now, I've decided to finally start a blog. I don't promise anything more than a hodgepodge of thoughts and feelings.</p>
+            <h3>My Interets: (more at <a href="#">about me</a>)</h3>
+            <ul>
+                <li><p>web design</p></li>
+                <li><p>arg's & internet horror</p></li>
+                <li><p>gaming</p></li>
+                <li><p>music</p></li>
+
+            </ul>
+        </aside>
+    </div>
+    <footer id="footer">
+        <marquee scrollamount="10">
+            {% for image in site.static_files %}
+            {% if image.path contains '/assets/images/badges' %}
+            <img id="badge" src="http://127.0.0.1:4000/{{ image.path }}" alt="{{ image.name }}">
+            {% endif %}
+            {% endfor %}
+        </marquee>
+    </footer>
+</div>
+</body>
 </html>

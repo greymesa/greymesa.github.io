@@ -1,7 +1,9 @@
-# frozen_string_literal: true
+source 'https://rubygems.org'
 
-source "https://rubygems.org"
-gemspec
+gem 'jekyll', '>= 3.8.5'
 
+group :development, :test do
+  gem 'github-pages', '>= 213', group: :jekyll_plugins
+end
 
-gem 'jekyll-seo-tag'
+gem "webrick", "~> 1.8"
