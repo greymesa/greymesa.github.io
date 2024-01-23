@@ -8,6 +8,7 @@ the images as variables */
 
 :root {
     --header-image: url('/assets/images/header.png');
+    --header-image-mobile: url('/assets/images/headermobile.png');
     --body-bg-image: url('/assets/images/bg.gif');
 
     /* colors */
@@ -226,21 +227,31 @@ since the sidebars would be too small on a mobile device.
 feel free to play around with the order!
 */
     main {
-        order: 1;
+        order: 2;
+        width: 100%;
+    }
+
+    #linebreak {
+        width: 100%;
     }
 
     #leftSidebar {
-        order: 2;
+        order: 3;
     }
 
     #rightSidebar {
-        order: 3;
+        order: 1;
     }
 
     #navbar ul {
         flex-wrap: wrap;
     }
+    #header {
+        background-image: var(--header-image-mobile);
+        height: 215px;
+    }
+    }
+    
 
-}
 
 
