@@ -94,7 +94,7 @@
         <marquee scrollamount="10">
             {% for image in site.static_files %}
             {% if image.path contains '/assets/images/badges' %}
-            <img id="badge" src="http://127.0.0.1:4000/{{ image.path }}" alt="{{ image.name }}">
+            <img id="badge" src="https://mesagrey.ca{{ image.path }}" alt="{{ image.name }}">
             {% endif %}
             {% endfor %}
         </marquee>
