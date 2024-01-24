@@ -3,7 +3,7 @@ layout: default
 title: "Home"
 ---
 
-# λ greymesa - mesagrey.ca λ <a href="/feed.xml"><img src="/assets/images/rss_ani.gif"></a>
+# λ greymesa - mesagrey.ca λ 
 <img src="/assets/images/line.gif" id="linebreak">
 
 ## Hey! welcome to my website! :')
