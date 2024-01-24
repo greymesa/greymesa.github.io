@@ -18,7 +18,7 @@ Getting into:
 
 # Latest blog post:
 
-<p>{{ site.posts.first.excerpt }}</p>
+<p>{{ site.posts.first.excerpt }}...</p>
 <a href="{{ site.posts.first.url }}">Read more</a>
 
 λ
