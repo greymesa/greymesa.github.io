@@ -16,9 +16,8 @@ Getting into:
 - Cramming Essays
 
 
-## Latest blog post:
+# Latest blog post:
 
-<h3>{{ site.posts.first.title }}</h3>
 <p>{{ site.posts.first.excerpt }}</p>
 <a href="{{ site.posts.first.url }}">Read more</a>
 
