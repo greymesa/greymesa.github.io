@@ -3,12 +3,24 @@ layout: default
 title: "Home"
 ---
 
-## λ greymesa - mesagrey.ca λ <a href="/feed.xml"><img src="/assets/images/rss_ani.gif"></a>
+# λ greymesa - mesagrey.ca λ <a href="/feed.xml"><img src="/assets/images/rss_ani.gif"></a>
 <img src="/assets/images/line.gif" id="linebreak">
 
+## Hey! welcome to my website! :')
 
-blah blah blah
-<br>
+I like making websites sometimes. (Plus some other stuff too).
+
+Getting into:
+- 3ds Homebrew
+- Soul R&B
+- Cramming Essays
+
+
+## Latest blog post:
+
+<h3>{{ site.posts.first.title }}</h3>
+<p>{{ site.posts.first.excerpt }}</p>
+<a href="{{ site.posts.first.url }}">Read more</a>
+
 λ
 
-(obvious placeholder)
