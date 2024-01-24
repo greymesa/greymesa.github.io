@@ -8,7 +8,7 @@ title: "Home"
 
 ## Hey! welcome to my website! :')
 
-I like making websites sometimes. (Plus some other stuff too).
+I like making websites sometimes. (Plus some other stuff too!!).
 
 Getting into:
 - 3ds Homebrew
