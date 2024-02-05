@@ -15,5 +15,3 @@ Through the years I picked up webdev skills, and now- as my multi-year streak of
 <!--ex-->
 
 Hopefully I have time to update this, but even if I don't, just knowing that i finally have a definitive website of my own up there is enough for me. :<)
-
-If you have any questions shoot me a DM on discord, my username is greymesa .
