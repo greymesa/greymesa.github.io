@@ -1,12 +1,13 @@
 <!DOCTYPE html>
 <html lang="{{ site.lang | default: "en-CA" }}">
   <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="utf-8">
     <title>{{ page.title }} - {{ site.title }}</title>
     <link rel="stylesheet" href="{{ "assets/css/main.css" | relative_url }}">
     <script type="text/javascript" src="/assets/js/index.js"></script>
     <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | relative_url }}" />
     <!-- Primary Meta Tags -->
 <title>mesagrey.ca - bloggish portfolio</title>
@@ -56,22 +57,23 @@
         <aside id="leftSidebar">
             <h2>Changelog:</h2>
             <div class="box">
-                <p>bleh</p>
-                <p>Sun. Feb. 18th 2024</p>
+                <p>i forced myself to add stuff</p>
+                <p>wed. march. 20th 2024</p>
                 <ul style="padding-left:10px;">
-                    <li>new scrollbar?</li>
-                    <li>new background too</li>
-                    <li>maybe some new music</li>
+                    <li>new scrollbar finally</li>
+                    <li>de-capitalized some stuff</li>
+                    <li>replaced homepage text</li>
+                    <li>new background</li>
                 </ul>
             </div>
             <h3>Planned Features:</h3>
             <ul>
-                <li><p>Actual music player</p></li>
-                <li><p>Probably something crazy idk yet.</p></li>
-                <li><p>New scrollbar</p></li>
-                <li><p>Projects Page for hosting some of my projects.</p></li>
-                <li><p>Something cray cray crazy</p></li>
-                <li><p>Idk like a 404 page</p></li>
+                <li><p>actual music player</p></li>
+                <li><p>probably something crazy idk yet.</p></li>
+                <li><p>better mobile ui</p></li>
+                <li><p>projects page for hosting some of my projects.</p></li>
+                <li><p>something cray cray crazy</p></li>
+                <li><p>idk like a 404 page</p></li>
             </ul>
             <audio id="myAudio" loop>
                 <source src="/assets/bimmer.mp3">
@@ -91,7 +93,7 @@
                     playPauseImage.src = '/assets/images/gordon/gordon.gif';} // Change to play image
                 else{
                     audio.pause();
-                    //audio.currentTime = 0; // Rewinds audio to the start,
+                    //audio.currentTime = 0; // Rewinds audio to the start, IDK if you wanted this or just a literal play/pause on an image lmao
                     playPauseImage.src = '/assets/images/gordon/stillgordon.gif';}  // Change back to pause image    
                 
                 });
@@ -104,18 +106,19 @@
         <aside id="rightSidebar">
             <h2>λ Welcome to mesagrey.ca! λ</h2>
             <p>I'm greymesa!</p>
-            <h3>Random Quip:</h3>
+            <h3>Random quip:</h3>
             <div class="box">
                 <p id="line"></p>
             </div>
             <h2>Hey, welcome to my Website!</h2>
-            <p>With all the craziness going on in the world right now, I've decided to finally start a blog. I don't promise anything more than a hodgepodge of thoughts and feelings.</p>
+            <p>with all the craziness going on in the world right now, i've decided to finally start a blog. I don't promise anything more than a hodgepodge of my own thoughts and feelings.</p>
             <h3>My Interets: (more at <a href="/about">about me</a>)</h3>
             <ul>
-                <li><p>Web design</p></li>
-                <li><p>ARG's & internet horror</p></li>
-                <li><p>Gaming</p></li>
-                <li><p>Music</p></li>
+                <li><p>web design</p></li>
+                <li><p>arg's & internet horror</p></li>
+                <li><p>gaming</p></li>
+                <li><p>music</p></li>
+                <li><p>writing sometimes</p></li>
 
             </ul>
         </aside>

@@ -6,20 +6,16 @@ title: "Home"
 # λ greymesa - mesagrey.ca λ 
 <img src="/assets/images/line.gif" id="linebreak">
 
-## Hey! welcome to my website! :')
+## hey! welcome to my website! :')
 
-I like making websites sometimes. (Plus some other stuff too!!).
+i like making websites sometimes. (plus some other stuff too!!).
 
-Getting into:
-- 3ds Homebrew
-- Soul R&B
-- Cramming Essays
+sometimes i like writing. might put some stuff up here but no promises.
 
-
-# Latest blog post:
+# latest blog post:
 
 <p>{{ site.posts.first.excerpt }}...</p>
-<a href="{{ site.posts.first.url }}">Read more</a>
+<a href="{{ site.posts.first.url }}">read more</a>
 
 λ
 
